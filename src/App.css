@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+:root {
+  --primary-color: #61DBFB !important;
+}
+
+.text-react {
+  color: var(--primary-color);
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  border: none;
+}
+
+.btn-primary:hover {
+  background: var(--primary-color);
+  border: none;
+}
+
+.btn-primary:active {
+  background: var(--primary-color);
+  border: none;
+}
+
+.btn-primary:focus {
+  background: var(--primary-color);
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #666;
+}
+
+ul {
+  list-style: none;
+}
+
+.alert {
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+.all-center {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  z-index: 1;
+  width: 100%;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+  background: transparent;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  padding: 0.45rem;
+  margin: 0 0.25rem;
+}
+
+.navbar a:hover {
+  color: var(--dark-color);
+}
+
+.navbar .welcome span {
+  margin-right: 0.6rem;
+}
+
+.App-logo {
+  pointer-events: none;
+  height: 5rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
